@@ -1,0 +1,132 @@
+/* QUITAR CONFIGURACIÓN PREDETERMINADA PARA ALGUNOS TAGS */
+h1,h2,p,h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* QUITAR Y AGREGAR VALORES A BODY */
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* CONFIGURACIÓN FLEX REUTILIZABLE*/
+.flex-predeterminado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CONFIGURACIÓN PADDING TOP BOTTOM REUTILIZABLE*/
+.espacio-inicio-fin-predeterminado {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* HEADER */
+
+/* SECCIÓN DEL TITULO */
+.header-box-titulo {
+    background-color: #000000;
+    opacity: 1;
+
+    color: #FFFFFF;
+}
+
+/* SECCIÓN DE LA IMAGEN GIGANTE */
+.header-box-imagen {
+    background-color: #000000;
+    opacity: 1;
+}
+
+/* CONFIGURACIÓN DE LA IMAGEN */
+.header-box-imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* MAIN */
+
+/* SECCIÓN INICIAL DEL MAIN */
+.main-box {
+    background-color: #000000;
+    opacity: 1;
+    color: #FFFFFF;
+
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 3em;
+}
+
+/* CONFIGURACIÓN CAJA DEL TEXTO EN EL MAIN */
+.main-box-texto {
+    max-width: 45%;
+}
+
+/* CONFIGURACIÓN DE LA IMAGEN EN EL MAIN */
+.main-box-imagen img {
+    max-width: 400px;
+    height: 250px;
+}
+
+/* SECTION CARACTERISTICAS */
+
+/* SECCIÓN PRINCIPAL DE LAS CARACTERISTICAS */
+.section-caracteristicas-box {
+    background-color: #1E1A13;
+    color: #FFFFFF;
+    opacity: 1;
+
+    flex-wrap: wrap;
+}
+
+/* CONFIGURACIÓN PARA EL SUBTITULO */
+.section-caracteristicas-box h2 { 
+    font-size: 2.5em;
+}
+
+/* SECCIÓN HIJA PRINCIPAL - CONTIENE LOS ICONOS */
+.section-caracteristicas-box-child {
+    padding-top: 2em; 
+    width: 100%;
+
+    flex-wrap: wrap;
+    gap: 3em;
+    text-align: center;
+
+    font-size: 1.7em;
+}
+
+/* SECTION IMAGENES */
+
+/* SECCIÓN PRINCIPAL IMAGENES  */
+.section-imagenes-box {
+    background-color: #000000;
+    opacity: 0.96;
+    
+    flex-wrap: wrap;
+    gap: 3em;
+
+}
+
+/* CONFIGURACIÓN IMAGENES  */
+.section-imagenes-box img {
+    max-width: 350px;
+    height: 220px;
+}
+
+/* FOOTER  */
+
+/* SECCIÓN PRINCIPAL DEL FOOTER */
+.footer-box {
+    background-color: #1E1A13;
+    opacity: 0.94;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* CONFIGURACIÓN ESPECIAL TAG A */
+.footer-box a {
+    color: #FFFFFF;
+}
